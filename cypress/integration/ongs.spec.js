@@ -31,12 +31,12 @@ describe("Ongs", () => {
   });
 
   it("deve poder realizar um login no sistema", () => {
-    const createOngId = Cypress.env("createdOngId");
+    // const createOngId = Cypress.env("createdOngId");
 
-    cy.log(createOngId);
+    // cy.log(createOngId);
 
     cy.visit("http://localhost:3000");
-    cy.get("input").type(createOngId);
+    cy.get("input").type(Cypress.env("createdOngId"));
     cy.get(".button").click();
   });
 });
