@@ -30,8 +30,8 @@ Cypress.Commands.add("createOng", () => {
     url: "http://localhost:3333/ongs",
     body: {
       city: "Jacucity",
-      email: "gatosOng@email.com",
-      name: "Ong Gatos",
+      email: "PetsOng@email.com",
+      name: "Pets Ong",
       uf: "Sp",
       whatsapp: "13999999999",
     },
