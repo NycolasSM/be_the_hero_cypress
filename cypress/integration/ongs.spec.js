@@ -17,8 +17,6 @@ describe("Ongs", () => {
     // atribuir rota a um alias
     // esperar com cy.wait
 
-    // cy.intercept();  TODO o server esta deprecated, preciso ver sobre o intercept
-
     cy.route("POST", "**/ongs").as("postOng");
 
     cy.get('[data-cy="submit"]').click();
@@ -39,4 +37,13 @@ describe("Ongs", () => {
     cy.get("input").type(Cypress.env("createdOngId"));
     cy.get(".button").click();
   });
+
+  it("devem poder fazer logout", () => {
+    
+  });
 });
+
+
+// TODO devem poder fazer logout
+// TODO devem poder cadastrar novos casos
+// TODO devem poder excluir um caso

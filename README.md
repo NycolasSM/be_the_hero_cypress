@@ -38,9 +38,9 @@ na pasta raiz
 <npm i> para instalar as dependencias
 
 execute o comando:
-./node_modules/.bin/cypress open
+<npm run cy:open
 
-para abrir os testes
+para abrir o cypress
 ```
 
 <br>
