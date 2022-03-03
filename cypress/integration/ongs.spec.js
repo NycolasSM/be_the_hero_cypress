@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+import Logon from "../support/pages/Logon"
+
 describe("Ongs", () => {
   it("devem poder realizar um cadastro", () => {
     cy.visit("http://localhost:3000/register");
@@ -28,7 +30,7 @@ describe("Ongs", () => {
     });
   });
 
-  it("deve poder realizar um login no sistema", () => {
+  it.only("deve poder realizar um login no sistema", () => {
     cy.visit("http://localhost:3000");
     cy.get("[data-cy=id]").type(Cypress.env("createdOngId"));
     cy.get("[data-cy=button-login]").click();

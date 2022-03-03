@@ -1,0 +1,1 @@
+// elementos das paginas
