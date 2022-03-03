@@ -30,29 +30,29 @@ describe("Ongs", () => {
 
   it("deve poder realizar um login no sistema", () => {
     cy.visit("http://localhost:3000");
-    cy.get("input").type(Cypress.env("createdOngId"));
-    cy.get(".button").click();
+    cy.get("[data-cy=id]").type(Cypress.env("createdOngId"));
+    cy.get("[data-cy=button-login]").click();
   });
 
   it("devem poder fazer logout", () => {
     cy.login();
 
-    cy.get("button").click();
+    cy.get("[data-cy=button-logout]").click();
   });
 
   it("devem poder cadastrar novos casos", () => {
     cy.login();
 
-    cy.get(".button").click();
-    cy.get('[placeholder="Título do caso"]').type("Animais abandonados");
-    cy.get("textarea").type(
+    cy.get("[data-cy=button-new-incident]").click();
+    cy.get('[data-cy=title]').type("Animais abandonados");
+    cy.get("[data-cy=description]").type(
       "Animais que precisam de apoio para ter aonde morarem"
     );
-    cy.get('[placeholder="Valor em reais"]').type("200");
+    cy.get('[data-cy=value]').type("200");
 
     cy.route("POST", "**/incidents").as("newIncident");
 
-    cy.get(".button").click();
+    cy.get("[data-cy=button-save]").click();
 
     cy.wait("@newIncident").then((xhr) => {
       expect(xhr.status).to.eq(200);
@@ -69,7 +69,7 @@ describe("Ongs", () => {
 
     cy.route("DELETE", "**/incidents/*").as("deleteIncident");
   
-    cy.get('li > button > svg').click();
+    cy.get('[data-cy=button-delete]').click();
 
     cy.wait("@deleteIncident").then((xhr) => {
       expect(xhr.status).to.eq(204);

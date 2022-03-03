@@ -8,9 +8,7 @@
 
 ## 🧩 Como testar <>
 
-<br>
-
-<h3>Para testar o Projeto:</h3>
+<h3>Para testar o Projeto siga os passos:</h3>
 
 <br>
 <h3>BackEnd</h3>
