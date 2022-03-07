@@ -1,50 +1,50 @@
 [ {
-  "uid" : "fcb74111bbf11f4c",
-  "name" : "devem poder realizar um cadastro",
-  "time" : {
-    "start" : 1646670976224,
-    "stop" : 1646670979350,
-    "duration" : 3126
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b9fa2c0306d4e8f",
-  "name" : "deve poder realizar um login no sistema",
-  "time" : {
-    "start" : 1646670979356,
-    "stop" : 1646670979916,
-    "duration" : 560
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0ed04af07421324",
-  "name" : "devem poder excluir um caso",
-  "time" : {
-    "start" : 1646670982343,
-    "stop" : 1646670982746,
-    "duration" : 403
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "55e64782318bc27b",
+  "uid" : "3b9aeeb201f50602",
   "name" : "devem poder cadastrar novos casos",
   "time" : {
-    "start" : 1646670980219,
-    "stop" : 1646670982327,
-    "duration" : 2108
+    "start" : 1646671705758,
+    "stop" : 1646671707550,
+    "duration" : 1792
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6fd3eba47e31f035",
+  "uid" : "8d509e97696ffc08",
   "name" : "devem poder fazer logout",
   "time" : {
-    "start" : 1646670979923,
-    "stop" : 1646670980217,
-    "duration" : 294
+    "start" : 1646671705473,
+    "stop" : 1646671705755,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e29033d093532a8",
+  "name" : "devem poder excluir um caso",
+  "time" : {
+    "start" : 1646671707555,
+    "stop" : 1646671707952,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bc749de94f23a20",
+  "name" : "deve poder realizar um login no sistema",
+  "time" : {
+    "start" : 1646671704886,
+    "stop" : 1646671705467,
+    "duration" : 581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79327ee2489a74c4",
+  "name" : "devem poder realizar um cadastro",
+  "time" : {
+    "start" : 1646671701899,
+    "stop" : 1646671704877,
+    "duration" : 2978
   },
   "status" : "passed",
   "severity" : "normal"

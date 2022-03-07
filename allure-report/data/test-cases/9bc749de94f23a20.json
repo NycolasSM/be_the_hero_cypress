@@ -1,12 +1,12 @@
 {
-  "uid" : "6b9fa2c0306d4e8f",
+  "uid" : "9bc749de94f23a20",
   "name" : "deve poder realizar um login no sistema",
   "fullName" : "deve poder realizar um login no sistema",
   "historyId" : "1cf0bfd04734403e8dd069412444f692",
   "time" : {
-    "start" : 1646670979356,
-    "stop" : 1646670979916,
-    "duration" : 560
+    "start" : 1646671704886,
+    "stop" : 1646671705467,
+    "duration" : 581
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,69 +21,69 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1646670979356,
-        "stop" : 1646670979480,
+        "start" : 1646671704887,
+        "stop" : 1646671705011,
         "duration" : 124
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "server",
         "time" : {
-          "start" : 1646670979362,
-          "stop" : 1646670979363,
+          "start" : 1646671704894,
+          "stop" : 1646671704895,
           "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "createOng",
         "time" : {
-          "start" : 1646670979363,
-          "stop" : 1646670979480,
-          "duration" : 117
+          "start" : 1646671704895,
+          "stop" : 1646671705011,
+          "duration" : 116
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "POST 200 http://localhost:3333/ongs",
           "time" : {
-            "start" : 1646670979364,
-            "stop" : 1646670979477,
+            "start" : 1646671704895,
+            "stop" : 1646671705008,
             "duration" : 113
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "hasContent" : false,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
-          "name" : "log bc317d67",
+          "name" : "log 3f2569aa",
           "time" : {
-            "start" : 1646670979479,
-            "stop" : 1646670979479,
-            "duration" : 0
+            "start" : 1646671705010,
+            "stop" : 1646671705011,
+            "duration" : 1
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "hasContent" : false,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
-          "name" : "assert expected **bc317d67** not to be null",
+          "name" : "assert expected **3f2569aa** not to be null",
           "time" : {
-            "start" : 1646670979480,
-            "stop" : 1646670979480,
+            "start" : 1646671705011,
+            "stop" : 1646671705011,
             "duration" : 0
           },
           "status" : "passed",
@@ -91,153 +91,153 @@
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "actual",
-            "value" : "bc317d67"
+            "value" : "3f2569aa"
           } ],
-          "hasContent" : true,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : true,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : true,
-        "stepsCount" : 3,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : true,
+        "stepsCount" : 3
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 5,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 5
     }, {
       "name" : "visit http://localhost:3000",
       "time" : {
-        "start" : 1646670979485,
-        "stop" : 1646670979575,
-        "duration" : 90
+        "start" : 1646671705014,
+        "stop" : 1646671705123,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get [data-cy=id]",
       "time" : {
-        "start" : 1646670979575,
-        "stop" : 1646670979578,
+        "start" : 1646671705123,
+        "stop" : 1646671705126,
         "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "type bc317d67",
+      "name" : "type 3f2569aa",
       "time" : {
-        "start" : 1646670979578,
-        "stop" : 1646670979828,
-        "duration" : 250
+        "start" : 1646671705126,
+        "stop" : 1646671705388,
+        "duration" : 262
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get [data-cy=button-login]",
       "time" : {
-        "start" : 1646670979828,
-        "stop" : 1646670979833,
-        "duration" : 5
+        "start" : 1646671705388,
+        "stop" : 1646671705391,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1646670979833,
-        "stop" : 1646670979916,
-        "duration" : 83
+        "start" : 1646671705391,
+        "stop" : 1646671705467,
+        "duration" : 76
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "POST 200 http://localhost:3333/sessions",
       "time" : {
-        "start" : 1646670979916,
-        "stop" : 1646670979916,
+        "start" : 1646671705467,
+        "stop" : 1646671705467,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "new url http://localhost:3000/profile",
       "time" : {
-        "start" : 1646670979916,
-        "stop" : 1646670979916,
+        "start" : 1646671705467,
+        "stop" : 1646671705467,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "GET 200 http://localhost:3333/profile",
       "time" : {
-        "start" : 1646670979916,
-        "stop" : 1646670979916,
+        "start" : 1646671705467,
+        "stop" : 1646671705467,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 14,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 14
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -257,6 +257,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b9fa2c0306d4e8f.json",
+  "source" : "9bc749de94f23a20.json",
   "parameterValues" : [ ]
 }

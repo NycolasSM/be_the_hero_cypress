@@ -42,6 +42,24 @@ para abrir o cypress
 ```
 
 <br>
+<h3>Allure</h3>
+
+```
+<npm run allure:clear
+- para limpar os relatórios anteriores
+
+<npm run cy:run
+- para executar os testes e gerar o relatório com o Allure
+
+<npm run allure:generate
+- para gerar os reports em cima dos resultados gerados pelo cy:run
+
+<npm run allure:open
+- para abrir a interface grafica e visualizar os resultados pelo navegador
+
+```
+
+<br>
 <br>
 <br>
 

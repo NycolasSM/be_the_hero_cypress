@@ -2,48 +2,14 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "devem poder cadastrar novos casos",
-    "uid" : "55e64782318bc27b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646670980219,
-      "stop" : 1646670982327,
-      "duration" : 2108
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "devem poder excluir um caso",
-    "uid" : "a0ed04af07421324",
+    "uid" : "6e29033d093532a8",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1646670982343,
-      "stop" : 1646670982746,
-      "duration" : 403
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "deve poder realizar um login no sistema",
-    "uid" : "6b9fa2c0306d4e8f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646670979356,
-      "stop" : 1646670979916,
-      "duration" : 560
+      "start" : 1646671707555,
+      "stop" : 1646671707952,
+      "duration" : 397
     },
     "flaky" : false,
     "newFailed" : false,
@@ -54,13 +20,30 @@
     "parameters" : [ ]
   }, {
     "name" : "devem poder realizar um cadastro",
-    "uid" : "fcb74111bbf11f4c",
+    "uid" : "79327ee2489a74c4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1646670976224,
-      "stop" : 1646670979350,
-      "duration" : 3126
+      "start" : 1646671701899,
+      "stop" : 1646671704877,
+      "duration" : 2978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "devem poder cadastrar novos casos",
+    "uid" : "3b9aeeb201f50602",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646671705758,
+      "stop" : 1646671707550,
+      "duration" : 1792
     },
     "flaky" : false,
     "newFailed" : false,
@@ -71,13 +54,30 @@
     "parameters" : [ ]
   }, {
     "name" : "devem poder fazer logout",
-    "uid" : "6fd3eba47e31f035",
+    "uid" : "8d509e97696ffc08",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1646670979923,
-      "stop" : 1646670980217,
-      "duration" : 294
+      "start" : 1646671705473,
+      "stop" : 1646671705755,
+      "duration" : 282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "deve poder realizar um login no sistema",
+    "uid" : "9bc749de94f23a20",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646671704886,
+      "stop" : 1646671705467,
+      "duration" : 581
     },
     "flaky" : false,
     "newFailed" : false,

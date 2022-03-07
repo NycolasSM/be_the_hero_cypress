@@ -1,12 +1,12 @@
 {
-  "uid" : "a0ed04af07421324",
+  "uid" : "6e29033d093532a8",
   "name" : "devem poder excluir um caso",
   "fullName" : "devem poder excluir um caso",
   "historyId" : "ed3f585e76ec8ff8ce1146fdfda480ce",
   "time" : {
-    "start" : 1646670982343,
-    "stop" : 1646670982746,
-    "duration" : 403
+    "start" : 1646671707555,
+    "stop" : 1646671707952,
+    "duration" : 397
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,69 +21,69 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1646670982343,
-        "stop" : 1646670982482,
-        "duration" : 139
+        "start" : 1646671707556,
+        "stop" : 1646671707700,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "server",
         "time" : {
-          "start" : 1646670982351,
-          "stop" : 1646670982352,
-          "duration" : 1
+          "start" : 1646671707564,
+          "stop" : 1646671707564,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "createOng",
         "time" : {
-          "start" : 1646670982352,
-          "stop" : 1646670982481,
-          "duration" : 129
+          "start" : 1646671707564,
+          "stop" : 1646671707700,
+          "duration" : 136
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "POST 200 http://localhost:3333/ongs",
           "time" : {
-            "start" : 1646670982352,
-            "stop" : 1646670982474,
-            "duration" : 122
+            "start" : 1646671707564,
+            "stop" : 1646671707693,
+            "duration" : 129
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "hasContent" : false,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
-          "name" : "log 901a8a26",
+          "name" : "log 54aa8cf0",
           "time" : {
-            "start" : 1646670982479,
-            "stop" : 1646670982481,
+            "start" : 1646671707697,
+            "stop" : 1646671707699,
             "duration" : 2
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "hasContent" : false,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
-          "name" : "assert expected **901a8a26** not to be null",
+          "name" : "assert expected **54aa8cf0** not to be null",
           "time" : {
-            "start" : 1646670982481,
-            "stop" : 1646670982481,
+            "start" : 1646671707700,
+            "stop" : 1646671707700,
             "duration" : 0
           },
           "status" : "passed",
@@ -91,69 +91,69 @@
           "attachments" : [ ],
           "parameters" : [ {
             "name" : "actual",
-            "value" : "901a8a26"
+            "value" : "54aa8cf0"
           } ],
-          "hasContent" : true,
-          "stepsCount" : 0,
+          "attachmentsCount" : 0,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "hasContent" : true,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : true,
-        "stepsCount" : 3,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : true,
+        "stepsCount" : 3
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 5,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 5
     }, {
       "name" : "createNewIncident",
       "time" : {
-        "start" : 1646670982488,
-        "stop" : 1646670982594,
-        "duration" : 106
+        "start" : 1646671707704,
+        "stop" : 1646671707798,
+        "duration" : 94
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST 200 http://localhost:3333/incidents",
         "time" : {
-          "start" : 1646670982489,
-          "stop" : 1646670982591,
-          "duration" : 102
+          "start" : 1646671707705,
+          "stop" : 1646671707796,
+          "duration" : 91
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
-        "name" : "log 98",
+        "name" : "log 102",
         "time" : {
-          "start" : 1646670982593,
-          "stop" : 1646670982594,
-          "duration" : 1
+          "start" : 1646671707798,
+          "stop" : 1646671707798,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
-        "name" : "assert expected **98** not to be null",
+        "name" : "assert expected **102** not to be null",
         "time" : {
-          "start" : 1646670982594,
-          "stop" : 1646670982594,
+          "start" : 1646671707798,
+          "stop" : 1646671707798,
           "duration" : 0
         },
         "status" : "passed",
@@ -161,146 +161,146 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "actual",
-          "value" : "98"
+          "value" : "102"
         } ],
-        "hasContent" : true,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : true,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 3,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 3
     }, {
       "name" : "login",
       "time" : {
-        "start" : 1646670982594,
-        "stop" : 1646670982648,
-        "duration" : 54
+        "start" : 1646671707798,
+        "stop" : 1646671707854,
+        "duration" : 56
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit http://localhost:3000/profile",
         "time" : {
-          "start" : 1646670982594,
-          "stop" : 1646670982648,
-          "duration" : 54
+          "start" : 1646671707798,
+          "stop" : 1646671707854,
+          "duration" : 56
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET http://localhost:3333/profile",
         "time" : {
-          "start" : 1646670982647,
-          "stop" : 1646670982647,
+          "start" : 1646671707854,
+          "stop" : 1646671707854,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
-        "stepsCount" : 0,
+        "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 2,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "stepsCount" : 2
     }, {
       "name" : "route (\"DELETE\"; \"**/incidents/*\")",
       "time" : {
-        "start" : 1646670982648,
-        "stop" : 1646670982648,
-        "duration" : 0
+        "start" : 1646671707854,
+        "stop" : 1646671707855,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "as (\"deleteIncident\")",
       "time" : {
-        "start" : 1646670982648,
-        "stop" : 1646670982648,
+        "start" : 1646671707855,
+        "stop" : 1646671707855,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "get [data-cy=button-delete]",
       "time" : {
-        "start" : 1646670982648,
-        "stop" : 1646670982671,
-        "duration" : 23
+        "start" : 1646671707855,
+        "stop" : 1646671707876,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1646670982671,
-        "stop" : 1646670982746,
-        "duration" : 75
+        "start" : 1646671707876,
+        "stop" : 1646671707952,
+        "duration" : 76
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "DELETE http://localhost:3333/incidents/98",
+      "name" : "DELETE http://localhost:3333/incidents/102",
       "time" : {
-        "start" : 1646670982746,
-        "stop" : 1646670982746,
+        "start" : 1646671707952,
+        "stop" : 1646671707952,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 18,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 18
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -320,6 +320,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0ed04af07421324.json",
+  "source" : "6e29033d093532a8.json",
   "parameterValues" : [ ]
 }
