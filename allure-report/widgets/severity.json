@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fcb74111bbf11f4c",
+  "name" : "devem poder realizar um cadastro",
+  "time" : {
+    "start" : 1646670976224,
+    "stop" : 1646670979350,
+    "duration" : 3126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b9fa2c0306d4e8f",
+  "name" : "deve poder realizar um login no sistema",
+  "time" : {
+    "start" : 1646670979356,
+    "stop" : 1646670979916,
+    "duration" : 560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0ed04af07421324",
+  "name" : "devem poder excluir um caso",
+  "time" : {
+    "start" : 1646670982343,
+    "stop" : 1646670982746,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e64782318bc27b",
+  "name" : "devem poder cadastrar novos casos",
+  "time" : {
+    "start" : 1646670980219,
+    "stop" : 1646670982327,
+    "duration" : 2108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd3eba47e31f035",
+  "name" : "devem poder fazer logout",
+  "time" : {
+    "start" : 1646670979923,
+    "stop" : 1646670980217,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

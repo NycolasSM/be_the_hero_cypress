@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 07 13:36:20 BRT 2022","Mon Mar 07 13:36:22 BRT 2022","2108","","Ongs","","","","devem poder cadastrar novos casos",""
+"passed","Mon Mar 07 13:36:19 BRT 2022","Mon Mar 07 13:36:20 BRT 2022","294","","Ongs","","","","devem poder fazer logout",""
+"passed","Mon Mar 07 13:36:22 BRT 2022","Mon Mar 07 13:36:22 BRT 2022","403","","Ongs","","","","devem poder excluir um caso",""
+"passed","Mon Mar 07 13:36:16 BRT 2022","Mon Mar 07 13:36:19 BRT 2022","3126","","Ongs","","","","devem poder realizar um cadastro",""
+"passed","Mon Mar 07 13:36:19 BRT 2022","Mon Mar 07 13:36:19 BRT 2022","560","","Ongs","","","","deve poder realizar um login no sistema",""
